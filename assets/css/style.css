@@ -1,0 +1,1705 @@
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*/COMMUN/*/
+.msg-error
+{
+color: #ffffff;
+    position: absolute;
+    font-size: 21px;
+    left: 50%;
+    padding: 20px;
+    z-index: 20;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    background-color: #be4b49;
+}
+
+.wrap-form-success-inscr{
+	position: absolute;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.68);
+	border-radius: 10%;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	transform: translate(-50%, -50%);
+}
+
+.message-success-inscr {
+	color: #1fca2d;
+	font-size: 27px;
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+	width: 225px;
+	text-align: center;
+}
+
+.wrap-input-success-inscr input[type="button"] {
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	height: 52px;
+	border-radius: 1px;
+	cursor: pointer;
+	display: block;
+	margin: 60px auto;
+	width: 64%;
+	font-size: 21px;
+}
+
+.wrap-input-success-inscr input[type="button"]:hover, .wrap-input-success-inscr input[type="button"]:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.btn-close {
+	display: none;
+}
+
+.btn-burger {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.background-connexion, .background-inscription {
+	display: none;
+}
+
+.body-mob-tab {
+	background: linear-gradient(to right, #25c481, #25b7c4) no-repeat;
+}
+
+/*/Connexion/*/
+.wrap-form, .wrap-form-inscription, .wrap-form-reserv, .wrap-form-reservBIS {
+	position: absolute;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.68);
+	border-radius: 10%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrap-contents, .wrap-contents-reservBIS {
+	padding: 50px 50px 0 50px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	padding: 12px 20px 20px;
+	margin: auto;
+}
+
+.wrap-input {
+	text-align: left;
+}
+
+.wrap-input:first-child {
+	margin-bottom: 20px;
+}
+
+h3 {
+	text-align: right;
+	color: white;
+	cursor: pointer;
+}
+
+h3:hover {
+	color: red;
+}
+
+.title-input-connexion, .title-input-inscription, .title-input-reserv, .title-input-reserv-logement {
+	color: white;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+}
+
+.input-text {
+	padding: 7px;
+	background-color: #ffffff;
+	color: black;
+	width: 100%;
+	font-size: 21px;
+}
+
+.input-submit, .input-submit-reserv {
+	width: calc(50% - 2px);
+	padding: 13px;
+	border-radius: 13px;
+	color: white;
+	background-color: #41a6e1;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	margin: 23px auto 0;
+}
+
+/*/FIN connexion/*/
+
+/*/INSCRIPTION/*/
+
+.wrap-contents-inscription {
+	padding: 50px 50px 0 50px;
+}
+
+.wrap-contents-inscription h2 {
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	padding: 0 20px 0 20px;
+	margin: auto;
+}
+
+
+.title-input-inscription:first-child {
+	margin-top: 0;
+}
+
+.title-input-inscription:last-child {
+	margin-bottom: 0;
+}
+
+.input-submit-inscription {
+	display: block;
+	border-radius: 13px;
+	color: white;
+	background-color: #41a6e1;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*/FIN INSCRIPTION/*/
+
+/*/DEBUT RESERVATION/*/
+
+.wrap-contents-reserv, .wrap-contents-reserv-modif {
+	padding: 0 50px 0;
+}
+
+.wrap-input-reserv {
+	text-align: left;
+	color: darkgrey;
+}
+
+.input-reserv {
+	color: black;
+}
+
+.wrap-input-reserv h3 {
+	text-align: right;
+	color: white;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.wrap-input-reserv h3:hover {
+	color: red;
+}
+
+/*/FIN RESERVATION/*/
+
+/*/DEBUT RESERVATIONBIS/*/
+
+.message-succes-reserv {
+	color: #1fca2d;
+	font-weight: bold;
+}
+
+
+.wrap-input-reservBIS input[type="button"] {
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	display: block;
+}
+
+.wrap-input-reservBIS input[type="button"]:hover, .wrap-input-reservBIS input[type="button"]:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+
+.wrap-contents-reservBIS h3 {
+	text-align: right;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.wrap-contents-reservBIS h3:hover {
+	color: red;
+}
+
+/*/FIN RESERVATIONBIS/*/
+
+/*/DEBUT SUCCESSRESERVATION/*/
+
+.voirReserv {
+	background: linear-gradient(to right, #25c481, #25b7c4) no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+
+.wrap-voirReserv {
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 2px solid white;
+	white-space: nowrap;
+	overflowX: scroll;
+overflowY: scroll;
+}
+
+.wrap-voirReserv th {
+	padding: 20px 15px;
+	text-align: left;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.wrap-voirReserv td {
+	padding: 15px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: 300;
+	color: #fff;
+	border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.wrap-voirReserv h3 {
+	color: white;
+	cursor: pointer;
+	margin-right: 10px;
+	position: fixed;
+}
+
+.wrap-voirReserv h3:hover {
+	color: black;
+}
+
+.wrap-voirReserv input[type="button"] {
+	background: #ffffff42;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	display: block;
+}
+
+.wrap-voirReserv input[type="button"]:hover, .wrap-voirReserv input[type="button"]:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #17df6cfa;
+}
+
+/*/FIN SUCCESSRESERVATION/*/
+
+/*/PROFILUSERFORADMIN/*/
+
+
+.wrap-reserv {
+	display: block;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #f4f4f4;
+	border-radius: 20px;
+	border: 2px solid black;
+	border-top: none;
+}
+
+.wrap-contents-reserv th {
+	padding: 20px 15px;
+	text-align: left;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.wrap-contents-reserv td {
+	padding: 15px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: 300;
+	color: #000;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrap-contents-reserv input[type="button"] {
+	background: rgba(159, 159, 159, 0.55);
+	font-weight: bold;
+	color: #000000;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	font-size: 15px;
+	display: block;
+}
+
+.wrap-contents-reserv input[type="button"]:hover {
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 0 0 0 2px #000000fa;
+}
+
+
+.span-nom-user, .span-client {
+	padding: 20px 15px;
+	font-weight: bold;
+	color: #000000;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.nom-user-perso {
+	font-weight: bold;
+	color: #d76e6e;
+	text-transform: uppercase;
+}
+
+/*/Menu admin/*/
+.nav-admin > nav {
+	background-color: #232f3e;
+}
+
+.nav-admin > nav > ul {
+	padding: 50px;
+	text-align: right;
+}
+
+.nav-admin > nav > ul > li {
+	display: inline-block;
+	list-style: none;
+}
+
+
+.nav-admin li:first-child {
+	color: white;
+	position: absolute;
+}
+
+
+.nav-admin a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*/FIN Menu admin/*/
+
+
+/*/Modif nom/*/
+
+.wrap-input-modifID input[type="button"] {
+	background: #00000073;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 5px;
+	display: block;
+}
+
+
+.wrap-input-modifID input[type="button"]:hover, .wrap-input-modifID input[type="button"]:focus {
+	box-shadow: 0 0 0 3px white, 0 0 0 4px #000000fa;
+}
+
+/*/FIN PROFILUSERFORADMIN/*/
+
+
+/*/FIN COMMUN/*/
+
+
+/*/RESPONSIVE/*/
+@media (max-width: 480px) {
+
+.msg-error {
+    font-size: 14px;
+    padding: 9px;
+    width: 203px;
+    top: 10%;
+}
+
+	.far.fa-arrow-alt-circle-left{
+		position: absolute;
+		bottom: 46px;
+		left: 90px;
+		font-size: 34px;
+		color: white;
+	}
+	.far.fa-arrow-alt-circle-left, .far.fa-arrow-alt-circle-left.connexion{
+		position: absolute;
+		left: 25px;
+		bottom: 14px;
+	}
+
+	/*/PROFIL/*/
+	/*/MENU CACHÉ/*/
+	.menu input[type="button"] {
+		background: #ff00008a;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 5px;
+		margin-top: 53px;
+		padding: 10px 5px;
+		width: 100vw;
+	}
+
+
+	.menu li:first-child {
+		top: 23%;
+		left: 50%;
+		list-style: none;
+		transform: translateX(-50%);
+	}
+
+	.menu li:last-child {
+		top: 12%;
+		position: absolute;
+		left: 50%;
+		list-style: none;
+		transform: translateX(-50%);
+	}
+
+
+	.nav-admin .name-admin {
+		position: absolute;
+		top: 30px;
+		left: 100px;
+		color: white;
+		padding: 10px 5px;
+		text-decoration: none;
+	}
+
+	.menu {
+		position: absolute;
+		top: 100px;
+		right: -9999px;
+		background-color: #e1e1e1;
+		width: 100vw;
+		height: 100vh;
+		transition: right .5s ease-in-out;
+	}
+
+	.btn-close {
+		width: 23px;
+		position: absolute;
+		top: 26px;
+		right: 27px;
+		color: white;
+	}
+
+	.btn-burger {
+		display: block;
+	}
+
+	/*/*/
+	/*/MENU CACHÉ/*/
+	.top-btn {
+		top: 29px;
+		width: 20px;
+		right: 29px;
+		position: absolute;
+		border-top: 2px solid #fff;
+	}
+
+	.mid-btn {
+		top: 36px;
+		width: 20px;
+		right: 29px;
+		position: absolute;
+		border-top: 2px solid #fff;
+	}
+
+	.bot-btn {
+		top: 43px;
+		width: 20px;
+		right: 29px;
+		position: absolute;
+		border-top: 2px solid #fff;
+	}
+
+	/*/*/
+	/*/Classe active/*/
+	.active {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 100px;
+		-webkit-transition: right .3s ease-in-out;
+		-o-transition: right .5s ease-in-out;
+		transition: right .5s ease-in-out;
+		z-index: 10;
+	}
+
+	.display-none {
+		display: none;
+	}
+
+	.display-block {
+		display: block;
+	}
+
+	/*/*/
+	.wrap-input-modifID a {
+		text-decoration: none;
+	}
+
+	.wrap-input-modifID input[type="button"] {
+		background: #00000073;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 5px;
+		margin: 31px auto;
+		width: 100vw;
+		cursor: pointer;
+		padding: 10px 5px;
+		display: block;
+	}
+
+	.wrap-reserv {
+		padding: 50px 0 50px 0;
+	}
+
+
+	/*/FIN PROFIL/*/
+	/*/CONNEXION MOB-TAB/*/
+	.nav-admin > nav > ul {
+		margin: 0;
+	}
+
+	.nav-admin > nav > ul > li {
+		left: 50%;
+		top: 42px;
+		transform: translateX(-50%);
+	}
+
+	.wrap-form {
+		width: 310px;
+	}
+
+	.wrap-contents {
+		padding: 19px 18px 0;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.wrap-contents .wrap-input {
+		margin-top: 30px;
+	}
+
+	.wrap-input:first-child {
+		margin-bottom: 20px;
+	}
+
+	.title-input-connexion:first-child {
+		display: block;
+		margin-bottom: 17px;
+	}
+
+	.title-input-connexion, .input-submit, .wrap-input h3 {
+		font-size: 11px;
+	}
+
+
+	.title-input-connexion:nth-child(2n+2) {
+		margin-top: 50px;
+		margin-bottom: 17px;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 36px auto 40px;
+		font-size: 10px;
+	}
+
+	.wrap-contents .wrap-input h3 {
+		font-size: 13px;
+	}
+
+	/*/FIN CONNEXION/*/
+	/*/DEBUT INSCRIPTION/*/
+	.wrap-form-inscription {
+		display: block;
+		border-radius: 10%;
+	}
+
+	.wrap-contents-inscription {
+		padding: 17px 17px 0 17px;
+	}
+
+	.wrap-contents-inscription h2 {
+		font-size: 20px;
+	}
+
+	.title-input-inscription {
+		font-size: 10px;
+		margin-top: 25px;
+		margin-bottom: 6px;
+	}
+
+	.title-input-inscription:first-child {
+		margin-top: 24px;
+	}
+
+	.title-input-inscription:last-child {
+		margin-bottom: 0;
+	}
+
+	.input-text {
+		font-size: 13px;
+		height: 19px;
+	}
+
+	.input-submit-inscription {
+		margin: 19px auto 27px;
+		width: 263px;
+		padding: 10px;
+		color: white;
+		font-size: 12px;
+	}
+
+	.wrap-input h3 {
+		font-size: 11px;
+	}
+
+	/*/FIN INSCRIPTION/*/
+	/*/POFILUSER/*/
+	.wrap-reserv {
+		padding: 50px 0 50px 0;
+	}
+
+	.wrap-contents-reserv {
+		padding: 0;
+		white-space: nowrap;
+		overflow-x: auto;
+	}
+
+
+	.wrap-contents-reserv th {
+		padding: 16px 14px;
+		width: 164px;
+		font-size: 13px;
+	}
+
+
+	.wrap-contents-reserv td {
+		padding: 16px 14px;
+		font-size: 13px;
+	}
+
+	.wrap-contents-reserv input[type="button"] {
+		font-size: 12px;
+	}
+
+	/*/FIN PROFILUSER/*/
+	/*/MODIFICATION RESERV/*/
+	.wrap-form-reserv {
+		width: 96%;
+	}
+
+	.wrap-contents-reserv-modif {
+		padding: 0 26px 0;
+	}
+
+	.wrap-contents-reserv-modif h2 {
+		font-size: 17px;
+	}
+
+	.wrap-contents-reserv-modif h2 {
+		font-size: 17px;
+	}
+
+
+	.title-input-reserv, .title-input-reserv-logement {
+		color: white;
+		font-weight: bold;
+		font-size: 14px;
+		margin-top: 7px;
+		display: block;
+		text-transform: uppercase;
+	}
+
+	.input-submit-reserv {
+		width: calc(50% - 2px);
+		padding: 13px;
+		border-radius: 13px;
+		color: white;
+		background-color: #41a6e1;
+		font-weight: bold;
+		display: block;
+		cursor: pointer;
+		font-family: "Roboto", sans-serif;
+		text-transform: uppercase;
+		margin: 4px auto 0;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 9px auto 29px;
+		font-size: 10px;
+	}
+
+
+	/*/FIN MODIF RESERV/*/
+
+	.message-succes-reserv {
+		color: #1fca2d;
+		font-size: 21px;
+		font-weight: bold;
+	}
+
+
+	.wrap-input-reservBIS input[type="button"] {
+		width: 220px;
+		background: #27AE60;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 1px;
+		cursor: pointer;
+		padding: 10px 5px;
+		margin: 64px auto 10px;
+		font-size: 21px;
+		display: block;
+	}
+
+
+}
+
+/*/DEBUT MOB-TAB/*/
+@media (min-width: 500px) and (max-width: 1023px) {
+
+	.cvven-wrap {
+		max-width: 700px;
+		width: 700px;
+		margin: 0 auto;
+	}
+	.far.fa-arrow-alt-circle-left{
+		position: absolute;
+		bottom: 46px;
+		left: 90px;
+		font-size: 50px;
+		color: white;
+	}
+	.far.fa-arrow-alt-circle-left, .far.fa-arrow-alt-circle-left.connexion{
+		position: absolute;
+		left: 61px;
+		bottom: 30px;
+	}
+	/*/PROFIL/*/
+	.nav-admin > nav > ul {
+		padding: 50px;
+		text-align: right;
+		margin: 0;
+	}
+
+
+	/*/MENU CACHÉ/*/
+	.menu input[type="button"] {
+		background: #ff00008a;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 5px;
+		margin-top: 53px;
+		padding: 10px 5px;
+		width: 100vw;
+	}
+
+
+	.menu li:first-child {
+		top: 23%;
+		left: 50%;
+		list-style: none;
+		transform: translateX(-50%);
+	}
+
+	.menu li:last-child {
+		top: 12%;
+		position: absolute;
+		left: 50%;
+		list-style: none;
+		transform: translateX(-50%);
+	}
+
+
+	.nav-admin .name-admin {
+		position: absolute;
+		top: 35px;
+		left: 39px;
+		color: white;
+		padding: 10px 5px;
+		text-decoration: none;
+	}
+
+	.menu {
+		position: absolute;
+		top: 100px;
+		right: -9999px;
+		background-color: #e1e1e1;
+		width: 100vw;
+		height: 100vh;
+		transition: right .5s ease-in-out;
+	}
+
+	.btn-close {
+		width: 23px;
+		position: absolute;
+		top: 40px;
+		right: 27px;
+		color: white;
+	}
+
+	.btn-burger {
+		display: block;
+	}
+
+	/*/*/
+	/*/MENU CACHÉ/*/
+	.top-btn {
+		top: 43px;
+		width: 20px;
+		right: 29px;
+		position: absolute;
+		border-top: 2px solid #fff;
+	}
+
+	.mid-btn {
+		top: 49px;
+		width: 20px;
+		right: 29px;
+		position: absolute;
+		border-top: 2px solid #fff;
+	}
+
+	.bot-btn {
+		top: 55px;
+		width: 20px;
+		right: 29px;
+		position: absolute;
+		border-top: 2px solid #fff;
+	}
+
+	/*/*/
+	/*/Classe active/*/
+	.active {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 100px;
+		-webkit-transition: right .3s ease-in-out;
+		-o-transition: right .5s ease-in-out;
+		transition: right .5s ease-in-out;
+		z-index: 10;
+	}
+
+	.display-none {
+		display: none;
+	}
+
+	.display-block {
+		display: block;
+	}
+
+	/*/*/
+	.wrap-input-modifID a {
+		text-decoration: none;
+	}
+
+	.wrap-input-modifID input[type="button"] {
+		background: #00000073;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 5px;
+		margin: 31px auto;
+		width: 100%;
+		cursor: pointer;
+		padding: 10px 5px;
+		display: block;
+	}
+
+	.wrap-reserv {
+		padding: 50px 0 50px 0;
+	}
+
+
+	/*/FIN PROFIL/*/
+	/*/CONNEXION MOB-TAB/*/
+	.wrap-form {
+		width: 656px;
+		top: 50%;
+	}
+
+	h2 {
+		font-size: 38px;
+	}
+
+	.wrap-input {
+		margin-top: 68px;
+	}
+
+	.wrap-input:first-child {
+		margin-bottom: 20px;
+	}
+
+	.title-input-connexion, .input-submit, .wrap-input h3 {
+		font-size: 18px;
+	}
+
+	.input-text {
+		height: 35px;
+		font-size: 17px;
+	}
+
+	.title-input-connexion:first-child {
+		display: block;
+		margin-bottom: 17px;
+	}
+
+	.title-input-connexion:nth-child(2n+2) {
+		margin-top: 112px;
+		margin-bottom: 17px;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 55px auto 64px;
+	}
+
+	.wrap-input h3 {
+		font-size: 17px;
+	}
+
+	/*/FIN CONNEXION/*/
+	/*/DEBUT INSCRIPTION/*/
+	.wrap-form-inscription {
+		width: 700px;
+		display: block;
+		border-radius: 10%;
+	}
+
+	.wrap-contents-inscription {
+		padding: 28px 50px 0 50px;
+	}
+
+	.title-input-inscription {
+		font-size: 18px;
+		margin-top: 26px;
+		margin-bottom: 17px;
+	}
+
+	.title-input-inscription:first-child {
+		margin-top: 0;
+	}
+
+	.title-input-inscription:last-child {
+		margin-bottom: 0;
+	}
+
+	.input-text {
+		height: 35px;
+		font-size: 17px;
+	}
+
+	.input-submit-inscription {
+		margin: 30px auto 30px;
+		width: 190px;
+		padding: 13px;
+		color: white;
+		font-size: 22px;
+	}
+
+	.wrap-input h3 {
+		font-size: 17px;
+	}
+
+	/*/FIN INSCRIPTION/*/
+	/*/TOUS LES CLIENTS/*/
+	.wrap-contents-reserv {
+		padding: 0;
+		white-space: nowrap;
+		overflow-x: auto;
+	}
+
+	/*/MODIFICATION RESERV/*/
+	.wrap-form-reserv {
+		width: 583px;
+	}
+
+	.wrap-contents-reserv-modif {
+		padding: 0 50px 0 22px;
+	}
+
+	.wrap-contents-reserv-modif h2 {
+		font-size: 27px;
+	}
+
+
+	.title-input-reserv, .title-input-reserv-logement {
+		color: white;
+		font-weight: bold;
+		font-size: 14px;
+		margin: 36px 0 11px 0;
+		display: block;
+		text-transform: uppercase;
+	}
+
+	.styleresponsivemenage {
+		margin-top: 20px;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 32px auto 56px;
+	}
+
+
+	/*/FIN MODIF RESERV/*/
+
+
+	/*/SUCCESS RESERVATION/*/
+	.wrap-form-reservBIS {
+		width: 545px;
+		top: 50%;
+	}
+	.message-succes-reserv {
+		color: #1fca2d;
+		font-size: 23px;
+		font-weight: bold;
+	}
+	.wrap-input-reservBIS input[type="button"] {
+		background: #27AE60;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		padding: 10px;
+		margin: 45px auto 0;
+		border-radius: 1px;
+		font-size: 20px;
+		cursor: pointer;
+		display: block;
+	}
+	/*/FIN SUCCESS RESERV/*/
+
+}
+
+/*/FIN MOBILE/*/
+
+/*/TABLETTE/*/
+@media (min-width: 1024px) {
+
+
+	.cvven-wrap {
+		max-width: 990px;
+		width: 990px;
+		margin: 0 auto;
+	}
+
+	.wrap-form {
+		width: 676px;
+		top: 40%;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	.wrap-input {
+		margin-top: 88px;
+	}
+
+.wrap-reserv{
+white-space: nowrap;
+overflow: scroll;
+}
+
+
+	.title-input-connexion, .input-submit, .wrap-input h3 {
+		font-size: 22px;
+	}
+
+	.input-text {
+		padding: 7px;
+		display: inline-block;
+		width: 100%;
+		height: 28px;
+		font-size: 20px;
+	}
+
+	.title-input-connexion:first-child {
+		display: block;
+		margin-bottom: 17px;
+	}
+
+	.title-input-connexion:nth-child(2n+2) {
+		margin-top: 82px;
+		margin-bottom: 17px;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 55px auto 64px;
+	}
+
+	/*/FIN CONNEXION/*/
+	/*/DEBUT INSCRIPTION/*/
+	.wrap-form-inscription {
+		display: block;
+		width: 800px;
+		border-radius: 10%;
+	}
+
+	.wrap-contents-inscription {
+		padding: 20px 50px 0 50px;
+	}
+
+	.wrap-contents-inscription h2 {
+		font-size: 39px;
+	}
+
+	.wrap-contents-inscription .wrap-input:first-child {
+		margin-bottom: 20px;
+	}
+
+	.wrap-input {
+		margin-top: 43px;
+	}
+
+	.input-text {
+		height: 35px;
+		font-size: 24px;
+	}
+
+	.title-input-inscription:first-child {
+		margin-top: 81px;
+		width: 93px;
+		display: block;
+	}
+
+	.wrap-contents-inscription .title-input-inscription {
+		font-size: 26px;
+		margin-top: 54px;
+		margin-bottom: 17px;
+	}
+
+	.title-input-inscription:last-child {
+		margin-bottom: 0;
+	}
+
+	.input-submit-inscription {
+		margin: 40px auto 52px;
+		width: 242px;
+		padding: 13px;
+		color: white;
+		font-size: 21px;
+	}
+
+	.wrap-input h3 {
+		font-size: 17px;
+	}
+
+	/*/FIN INSCRIPTION/*/
+	/*/DEBUT PROFIL/*/
+	.name-admin {
+		position: absolute;
+		top: 60px;
+		font-size: 20px;
+		left: 3rem;
+		color: white;
+	}
+
+	.nav-admin > nav {
+		width: 100%;
+		height: 125px;
+		background-color: #232f3e;
+	}
+
+	.nav-admin > nav > ul {
+		padding: 50px;
+		text-align: right;
+		margin: 0;
+	}
+
+	.nav-admin > nav > ul > li {
+		display: inline-block;
+		list-style: none;
+		margin: 0px 50px 0;
+	}
+
+
+	.nav-admin li:first-child {
+		font-size: 19px;
+		color: white;
+		position: absolute;
+		right: 29rem;
+		list-style: none;
+	}
+
+
+	.nav-admin li:nth-child(2n+2) {
+		margin: 0;
+		position: absolute;
+		right: 16rem;
+		list-style: none;
+	}
+
+	.nav-admin li:last-child{
+		list-style: none;
+		position: absolute;
+		right: 0;
+	}
+
+
+	.menu input[type='button'] {
+		width: 220px;
+		background: #27ae6000;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 1px;
+		padding: 10px;
+		font-size: 19px;
+	}
+
+	.menu input[type='button']:hover {
+		box-shadow: 0 0 0 3px white, 0 0 0 4px #000000fa;
+		cursor: pointer;
+	}
+
+
+	.wrap-input-modifID input[type="button"] {
+		background: #00000073;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 5px;
+		margin: 31px auto;
+		width: 100%;
+		cursor: pointer;
+		padding: 10px 5px;
+		display: block;
+	}
+
+	/*/FIN PROFIL/*/
+	/*/MODIFICATION RESERV/*/
+	.wrap-form-reserv {
+		width: 830px;
+	}
+
+	.wrap-contents-reserv-modif {
+		padding: 0 50px 0 22px;
+	}
+
+	.wrap-contents-reserv-modif h2 {
+		font-size: 27px;
+	}
+
+
+	.title-input-reserv, .title-input-reserv-logement {
+		color: white;
+		font-weight: bold;
+		font-size: 21px;
+		margin: 36px 0 11px 0;
+		display: block;
+		text-transform: uppercase;
+	}
+
+	.styleresponsivemenage {
+		margin-top: 15px;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 32px auto 56px;
+	}
+
+	.input-reserv {
+		color: black;
+		height: 22px;
+		width: 35%;
+	}
+
+	.menage1, .menage0 {
+		height: 20px;
+		width: 17px;
+		vertical-align: bottom;
+	}
+
+	.menage0{
+		margin-top: 10px;
+	}
+
+	.wrap-contents-reserv-modif label {
+		font-size: 20px;
+	}
+
+	.wrap-input-reserv h3 {
+		text-align: right;
+		color: white;
+		font-size: 23px;
+		cursor: pointer;
+	}
+
+	.message-succes-reserv {
+		color: #1fca2d;
+		font-size: 21px;
+		font-weight: bold;
+	}
+
+
+	.wrap-input-reservBIS input[type="button"] {
+		width: 220px;
+		background: #27AE60;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 1px;
+		cursor: pointer;
+		padding: 10px 5px;
+		margin: 64px auto 10px;
+		font-size: 21px;
+		display: block;
+	}
+
+	.wrap-input-reservBIS input[type="button"]:hover, .wrap-input-reservBIS input[type="button"]:focus {
+		box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+	}
+
+	/*/FIN MODIF RESERV/*/
+
+	.far.fa-arrow-alt-circle-left{
+		position: absolute;
+		bottom: 46px;
+		left: 90px;
+		font-size: 50px;
+		color: white;
+	}
+	.far.fa-arrow-alt-circle-left, .far.fa-arrow-alt-circle-left.connexion{
+		position: absolute;
+		left: 50px;
+		bottom: 20px;
+	}
+
+
+}
+
+
+/*/DEBUT DESC/*/
+
+@media (min-width: 1200px) {
+	.cvven {
+		width: 1190px;
+		max-width: 1190px;
+		margin: 0 auto;
+	}
+
+	/*/DEBUT CONNEXION TAB/*/
+	.wrap-form {
+		top: 50%;
+		width: 500px;
+	}
+
+	.wrap-contents, .wrap-contents-reservBIS {
+		padding: 50px 50px 0 50px;
+	}
+
+	.wrap-input {
+		text-align: left;
+	}
+
+	.title-input-connexion, .input-submit, .wrap-input h3 {
+		font-size: 16px;
+	}
+
+	.title-input-connexion:first-child {
+		display: block;
+		margin-bottom: 17px;
+	}
+
+
+	.title-input-connexion:nth-child(2n+2) {
+		display: block;
+		margin-top: 50px;
+		margin-bottom: 17px;
+	}
+
+	.input-text {
+		padding: 7px;
+		width: 100%;
+		height: 30px;
+		font-size: 20px;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 34px auto 40px;
+	}
+
+	/*/FIN CONNEXION TAB/*/
+	/*/DEBUT INSCRIPTION/*/
+	.wrap-form-inscription {
+		display: block;
+		border-radius: 10%;
+	}
+
+	.wrap-contents-inscription {
+		padding: 20px 50px 0 50px;
+	}
+
+	.wrap-contents-inscription h2 {
+		font-size: 32px;
+	}
+
+	.wrap-contents-inscription .wrap-input:first-child {
+		margin-bottom: 20px;
+	}
+
+	.wrap-input {
+		margin-top: 43px;
+	}
+
+	.wrap-contents-inscription .title-input-inscription {
+		font-size: 16px;
+		margin-top: 26px;
+		margin-bottom: 17px;
+	}
+
+
+	.title-input-inscription:first-child {
+		margin-top: 0;
+		width: 93px;
+		display: block;
+	}
+
+	.title-input-inscription:last-child {
+		margin-bottom: 0;
+	}
+
+	.input-submit-inscription {
+		margin: 40px auto 0;
+		width: 190px;
+		padding: 13px;
+		color: white;
+		font-size: 17px;
+	}
+
+
+	/*/FIN INSCRIPTION/*/
+	/*/DEBUT PROFIL/*/
+	.name-admin {
+		position: absolute;
+		top: 6%;
+		font-size: 20px;
+		left: 3rem;
+		color: white;
+	}
+
+	.nav-admin > nav {
+		width: 100%;
+		height: 125px;
+		background-color: #232f3e;
+	}
+
+	.nav-admin > nav > ul {
+		padding: 50px;
+		text-align: right;
+		margin: 0;
+	}
+
+	.nav-admin > nav > ul > li {
+		display: inline-block;
+		list-style: none;
+		margin: 0 130px 0;
+	}
+
+
+	.nav-admin li:first-child {
+		font-size: 19px;
+		color: white;
+		position: absolute;
+		right: 33rem;
+		list-style: none;
+	}
+
+
+	.nav-admin li:nth-child(2n+2) {
+		margin: 0;
+		list-style: none;
+		right: 18rem;
+	}
+
+	.nav-admin li:last-child {
+		right: 11px;
+	}
+
+
+	.menu input[type='button'] {
+		width: 220px;
+		background: #27ae6000;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 1px;
+		padding: 10px;
+		font-size: 19px;
+	}
+
+	.wrap-input-modifID input[type="button"]{
+		font-size: 20px;
+	}
+
+	.menu input[type='button']:hover {
+		box-shadow: 0 0 0 3px white, 0 0 0 4px #000000fa;
+		cursor: pointer;
+	}
+
+	.wrap-contents-reserv th{
+		font-size: 23px;
+	}
+
+	.wrap-contents-reserv td{
+		font-size: 21px;
+	}
+
+	/*/FIN PROFIL/*/
+	/*/modifId/*/
+	.background-connexion, .background-inscription {
+		width: 100%;
+		opacity: 0.9;
+		height: 100%;
+		display: block;
+	}
+
+
+	/*/TOUS les clients/*/
+	.span-client {
+		display: block;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.span-nom-user {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.wrap-contents-reserv table {
+		margin: 0 auto;
+	}
+
+	/*/FIn tous les clients/*/
+	/*/PROFILUSER/*/
+	.wrap-contents-reserv {
+		padding: 0;
+	}
+
+	/*/FIN PROFILUSER/*/
+
+/*/MODIFICATION USER/*/
+	.title-input-reserv, .title-input-reserv-logement {
+		font-size: 18px;
+		margin: 26px 0 11px 0;
+	}
+
+	.input-submit {
+		padding: 13px;
+		margin: 34px auto 32px;
+	}
+
+	.wrap-input-reserv h3 {
+		font-size: 19px;
+		margin-bottom: 12px;
+	}
+	/*FIN MODIFICATION USER/*/
+	.wrap-voirReserv {
+		display: block;
+		width: 1700px;
+		margin: 0 auto;
+		padding: 50px;
+		border-radius: 20px;
+		border: 2px solid white;
+		white-space: normal;
+		overflow: hidden;
+	}
+
+	.wrap-voirReserv th {
+		padding: 20px 15px;
+		text-align: left;
+		font-weight: 500;
+		font-size: 21px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	.wrap-voirReserv td {
+		padding: 15px;
+		text-align: left;
+		vertical-align: middle;
+		font-weight: 300;
+		font-size: 19px;
+		color: #fff;
+		border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+	}
+
+	.wrap-voirReserv h3 {
+		color: white;
+		font-size: 18px;
+		cursor: pointer;
+	}
+
+	.wrap-voirReserv h3:hover {
+		color: black;
+	}
+
+	.wrap-voirReserv input[type="button"] {
+		width: 220px;
+		background: #ffffff42;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 1px;
+		cursor: pointer;
+		padding: 10px 5px;
+		margin: 0px auto 0px;
+		font-size: 15px;
+		display: block;
+	}
+
+	.wrap-voirReserv input[type="button"]:hover, .wrap-voirReserv input[type="button"]:focus {
+		box-shadow: 0 0 0 2px white, 0 0 0 3px #17df6cfa;
+	}
+
+
+
+
+}
+
+/*/FIN DESC/*/
